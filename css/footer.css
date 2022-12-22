@@ -1,0 +1,21 @@
+/*ESTILO CSS DO FOOTER*/
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+    color: rgb(207, 250, 205);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1d031c;
+    font-size: 17px;
+
+}
+
+/*RESPONSIVIDADE DO FOOTER*/
+@media screen and (max-width: 375px) {
+    .footer {
+        margin: 0 0 0 0;
+    }
+}
+
