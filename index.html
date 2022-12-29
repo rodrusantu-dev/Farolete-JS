@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semáforo em JS</title>
+    <title>Abajur JS</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/reset.css">
-    <script src="./js/semaforo.js" defer></script>
+    <script src="./js/abajur.js" defer></script>
 </head>
 <body>
     <main>
         <header class="container-cabecalho">   
-        <h1>Farolete JS</h1>
+        <h1>Abajur JS</h1>
         </header>
-        <div class="geralsemaforo">
+
+        <div class="geral">
             <div>
-                <img src="./img/desligado.png" id='imagem' >
+                <h2 class="subtitle">Que comecem os Jogos!</h2>
+                <h4 class="fraseDeImpacto">Para esta brincadeira escolha um botão da sua cor preferida</h4>
+                <br>
+                <p id="resposta"></p>
+                <br>
+                <img src="./img/inicio.png" id='imagem' >
             </div>
             <div id='buttons'>
-                <button id='red' class="button">Vermelho</button>
-                <button id='yellow' class="button">Amarelo</button>
-                <button id='green' class="button">Verde</button>
-                <button name='teste' id='automatic' class="button" >Automático</button>
+                <button id='red' class="button">Quero o Vermelho</button>
+                <button id='yellow' class="button">Quero o Amarelo</button>
+                <button id='green' class="button">Quero o Verde</button>
             </div>
         </div>
     </main>
